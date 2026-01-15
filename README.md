@@ -129,7 +129,15 @@ Surveillance      | 3-6 mois          | 1 mois            | Immédiat
 
 ## 🎓 Compétences BTS SIO mobilisées
 
-**Bloc 1 : Concevoir et développer une solution applicative**
+**Bloc 1 : SUPPORT ET MISE À DISPOSITION DES SERVICES INFORMATIQUES**
+- Gestion du patrimoine informatique
+- Réponse aux incidents et aux demandes d'assistance et d'évolution
+- Développement de la présence en ligne de l'organisation
+- Travail en mode projet
+- Mise à disposition des utilisateurs d'un service informatique
+- Organisation de son développement professionnel
+
+**Bloc 2 : Concevoir et développer une solution applicative**
 - Participer à la conception de l'architecture d'une solution applicative
 - Identifier, développer, utiliser ou adapter des composants logiciels
 
