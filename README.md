@@ -9,7 +9,7 @@
 
 ## 📚 À propos
 
-**Ressources pédagogiques complètes** pour enseigner la cybersécurité aux étudiants **BTS SIO Option SLAM** (Solutions Logicielles et Applications Métiers), **1ère année, Bloc 3 - Compétence C1**.
+**Ressources pédagogiques complètes** pour enseigner la cybersécurité aux étudiants **BTS SIO Option SLAM** (Solutions Logicielles et Applications Métiers), **1ère année, Bloc 1 & 3 - Compétence C1**.
 
 Cette séance introduit l'**analyse de risques informatiques** en mettant l'accent sur les **vulnérabilités applicatives**, le **développement sécurisé** et la **pensée critique** face aux propositions technologiques.
 
