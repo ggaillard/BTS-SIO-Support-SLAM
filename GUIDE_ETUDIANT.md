@@ -25,7 +25,7 @@ Vous êtes une équipe de **consultants en sécurité**. Une startup **DevSecure
 
 | Lettre | Composant | Dans DevSecure |
 |--------|-----------|-----------------|
-| **M** | Matériel | Serveurs AWS, basesde données |
+| **M** | Matériel | Serveurs AWS, bases de données |
 | **L** | Logiciel | Code API Node.js, frameworks |
 | **D** | Données | MySQL, sessions utilisateur |
 | **P** | Procédures | CI/CD, revue de code |

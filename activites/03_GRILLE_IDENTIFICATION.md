@@ -1,27 +1,27 @@
-# GRILLE D'IDENTIFICATION DES VULNÃ‰RABILITÃ‰S
-## Version SLAM â€” Audit applicatif DevSecure
+# GRILLE D'IDENTIFICATION DES VULNÉRABILITÉS
+## Version SLAM — Audit applicatif DevSecure
 
-**BinÃ´me : _________________________ | Date : _______________**
+**Binôme : _________________________ | Date : _______________**
 
 ---
 
-# RAPPELS THÃ‰ORIQUES
+# RAPPELS THÉORIQUES
 
 ## Les 5 composants du SI (Laudon & Laudon)
 
 | Composant | Description | Focus SLAM |
 |-----------|-------------|------------|
-| **M** - MatÃ©riel | Infrastructure physique/cloud | Serveurs AWS, MongoDB Atlas, Redis |
-| **L** - Logiciel | Applications et systÃ¨mes | **Code applicatif**, frameworks, dÃ©pendances |
-| **D** - DonnÃ©es | Informations stockÃ©es | **BDD**, fichiers S3, sauvegardes, logs |
-| **P** - ProcÃ©dures | RÃ¨gles et processus | **CI/CD**, revue de code, documentation |
-| **H** - Personnel | Ressources humaines | **DÃ©veloppeurs**, compÃ©tences sÃ©curitÃ© |
+| **M** - Matériel | Infrastructure physique/cloud | Serveurs AWS, MongoDB Atlas, Redis |
+| **L** - Logiciel | Applications et systèmes | **Code applicatif**, frameworks, dÃ©pendances |
+| **D** - Données | Informations stockÃ©es | **BDD**, fichiers S3, sauvegardes, logs |
+| **P** - Procédures | Règles et processus | **CI/CD**, revue de code, documentation |
+| **H** - Personnel | Ressources humaines | **Développeurs**, compÃ©tences sÃ©curitÃ© |
 
-> ðŸ”‘ **MnÃ©monique** : MLDPP = "**M**a **L**igne **D**e **P**rotection **P**ermanente"
+> ðŸ”‘ **Mnémonique** : MLDPP = "**M**a **L**igne **D**e **P**rotection **P**ermanente"
 
 ## VulnÃ©rabilitÃ© / Menace / Risque
 
-| Concept | DÃ©finition | CaractÃ©ristique |
+| Concept | Définition | Caractéristique |
 |---------|------------|-----------------|
 | **VulnÃ©rabilitÃ©** | Faiblesse du systÃ¨me | IntrinsÃ¨que (interne) |
 | **Menace** | Ce qui peut exploiter la vulnÃ©rabilitÃ© | Externe |
@@ -44,7 +44,7 @@ VULNÃ‰RABILITÃ‰ â†’ exploitÃ©e par â†’ MENACE â†’ cause �
 | Code | CatÃ©gorie | Description |
 |------|-----------|-------------|
 | **A01** | Broken Access Control | AccÃ¨s non autorisÃ© (IDOR) |
-| **A02** | Cryptographic Failures | DonnÃ©es non protÃ©gÃ©es |
+| **A02** | Cryptographic Failures | Données non protÃ©gÃ©es |
 | **A03** | Injection | SQL, NoSQL, XSS, commandes |
 | **A05** | Security Misconfiguration | Mauvaise configuration |
 | **A06** | Vulnerable Components | DÃ©pendances obsolÃ¨tes |
@@ -223,9 +223,9 @@ VULNÃ‰RABILITÃ‰ â†’ exploitÃ©e par â†’ MENACE â†’ cause �
 | SPOF5 | | | | |
 
 **Types de SPOF Ã  rechercher :**
-- ðŸ–¥ï¸ **MatÃ©riel** : Serveur/service unique
+- ðŸ–¥ï¸ **Matériel** : Serveur/service unique
 - ðŸ’¿ **Logiciel** : DÃ©pendance critique unique
-- ðŸ“Š **DonnÃ©es** : Sauvegarde unique ou non testÃ©e
+- ðŸ“Š **Données** : Sauvegarde unique ou non testÃ©e
 - ðŸ‘¤ **Humain** : Personne unique indispensable
 - ðŸ“‹ **ProcÃ©dure** : Processus unique sans alternative
 
@@ -266,10 +266,10 @@ VULNÃ‰RABILITÃ‰ â†’ exploitÃ©e par â†’ MENACE â†’ cause �
 | A07 - Auth Failures | |
 | A09 - Logging Failures | |
 | **VulnÃ©rabilitÃ©s INFRA (Laudon)** | |
-| M - MatÃ©riel | |
+| M - Matériel | |
 | L - Logiciel | |
-| D - DonnÃ©es | |
-| P - ProcÃ©dures | |
+| D - Données | |
+| P - Procédures | |
 | H - Personnel | |
 | **SPOF identifiÃ©s** | |
 | **TOTAL VULNÃ‰RABILITÃ‰S** | |
