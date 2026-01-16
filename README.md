@@ -269,50 +269,171 @@ Etape 5 : Prioriser les actions
 
 **Ton deliverable** = Fichier `.md` avec la matrice des risques
 
-### 📤 APRÈS LA SÉANCE (dans la semaine)
+### 📤 APRÈS LA SÉANCE (remise sur GitHub)
 
-```
-1. Aller sur GitHub : [LIEN REPO]
-2. Dossier : submissions/
-3. Cliquer : "Add file" → "Create new file"
-4. Nom : Binome_01_VosNoms.md
-5. Copier ta cartographie
-6. Cliquer : "Commit"
-
-⏱️ Temps : 3-5 minutes
-```
+Consulte la section **🔧 GITHUB — REMISE DE TON TRAVAIL** ci-dessous
 
 ---
 
-## 📋 FORMAT DE TA CARTOGRAPHIE
+## 📚 RESSOURCES
+
+### Pendant la séance
+- 📄 02_SI_FICTIF_DEVSECURE.md → La vraie app à analyser
+- 📋 03_GRILLE_IDENTIFICATION.md → Le format
+- 📝 04_TEMPLATE_CARTOGRAPHIE.md → Ton template
+
+### Pour apprendre plus
+- 📖 08_SUPPORT_DE_COURS.md → Tous les concepts
+- 🎬 YouTube "Log4Shell vulnerability" (~5 min)
+- 🌐 https://owasp.org/www-project-top-ten/
+
+### Après la séance
+- ✅ 07_CORRIGE_COMPLET.md → La solution (enseignant la partagera)
+
+---
+
+## 🔧 GITHUB — REMISE DE TON TRAVAIL
+
+**Tu dois remettre ta cartographie sur GitHub** (c'est un outil professionnel que tu vas utiliser en industrie !)
+
+### 📌 AVANT LA SÉANCE (15 min)
+
+**Livrable 0️⃣ : Vérifier que tu as compris les concepts**
+
+👉 Lis et complète : **`LIVRABLE_0_CONCEPTS_GITHUB.md`**
+
+```
+✅ 4 exercices simples (15 minutes)
+✅ Vérifier que tu comprends GitHub/Markdown
+✅ À envoyer par e-mail AVANT le TP
+✅ Pas noté, juste une vérification
+```
+
+**Contenu** :
+- Définitions (GitHub, dépôt, commit, etc.)
+- Associations fonctions GitHub
+- Markdown pratique
+- Cas d'usage réel
+
+**À faire** :
+1. Télécharge le fichier
+2. Remplis les 4 exercices
+3. Envoie tes réponses par e-mail
+
+---
+
+### 📖 PENDANT LA SÉANCE (référence)
+
+**Guide 📖 : Tout ce qu'il faut savoir sur GitHub**
+
+👉 Consulte : **`GUIDE_GITHUB_ETUDIANT.md`**
+
+```
+✅ 4 concepts clés expliqués simplement
+✅ 12 fonctions GitHub essentielles
+✅ 4 usages courants
+✅ 5 commandes Git de base
+✅ 3 outils pour mettre en forme (VS Code, Mistral, Dillinger)
+✅ Workflow complet Word → GitHub
+✅ Markdown cheatsheet
+✅ Auto-évaluation pour vérifier
+✅ Dépannage (6 problèmes courants)
+```
+
+**Comment l'utiliser** :
+- Avant de commencer : lis les concepts
+- Pendant le TP : garde-le ouvert comme référence
+- Besoin d'aide ? Cherche dans le dépannage
+
+---
+
+### 🚀 APRÈS LA SÉANCE (remise)
+
+**Étapes pour remettre ton travail** :
+
+```
+1️⃣ Créer un compte GitHub (gratuit)
+   → https://github.com/signup
+   → Username : prenom_nom_bts
+
+2️⃣ Créer un dépôt
+   → Bouton "+" → "New repository"
+   → Nom : TP_DevSecure_Cartographie
+   → Public (très important !)
+
+3️⃣ Uploader ta cartographie
+   → "Add file" → "Upload files"
+   → Sélectionne ton fichier Markdown
+   → "Commit changes"
+
+4️⃣ Envoyer l'URL à l'enseignant
+   → https://github.com/ton_username/TP_DevSecure_Cartographie
+```
+
+**Temps total** : 10 minutes maximum
+
+---
+
+### 📋 FORMAT DE TON FICHIER À REMETTRE
+
+Ton fichier Markdown doit contenir :
 
 ```markdown
 # Cartographie des risques — DevSecure
 
-## Binôme
+## 👥 Binôme
 - Étudiant 1 : [Nom]
 - Étudiant 2 : [Nom]
 
-## Vulnérabilités identifiées
+## 🔍 Vulnérabilités identifiées
 
-| Vulnérabilité | Laudon | OWASP | V | I | Risque | Niveau |
+| Vulnérabilité | Composant | OWASP | V | I | Risque | Niveau |
 |---|---|---|---|---|---|---|
-| Injection SQL | L | A03 | 4 | 4 | 16 | 🔴 CRITIQUE |
-| Secret JWT en dur | H | A02 | 4 | 3 | 12 | 🔴 CRITIQUE |
-| ... | ... | ... | ... | ... | ... | ... |
+| Injection SQL | Software | A03 | 4 | 4 | 16 | 🔴 CRITIQUE |
+| Secret JWT en dur | Software | A02 | 4 | 3 | 12 | 🔴 CRITIQUE |
+| [Ajouter les autres] | | | | | | |
 
-## Points forts
+## 💪 Points forts
 - [Qu'est-ce qui est bien dans DevSecure ?]
 
-## Points à améliorer
+## ⚠️ Points à améliorer
 - [Qu'est-ce qui pose problème ?]
 
-## SPOF (points uniques de défaillance)
-- [Un seul serveur ? Une seule BDD ? À identifier]
-
-## Solution : Qu'est-ce qu'il faut faire ?
+## 🎯 Solutions proposées
 - [Comment corriger les failles ?]
 ```
+
+✅ **Important** : Fichier en format `.md` (Markdown), pas Word !
+
+---
+
+### 🛠️ OUTILS POUR METTRE EN FORME (optionnel)
+
+Si tu veux voir ton travail bien formaté **avant d'uploader** :
+
+| Outil | Utilité | Lien |
+|---|---|---|
+| **VS Code** | Éditeur avec aperçu temps réel | https://code.visualstudio.com |
+| **Mistral** | IA qui formate ton texte en Markdown | https://mistral.ai/chat |
+| **Dillinger** | Testeur Markdown en ligne | https://dillinger.io |
+
+✨ **Conseil** : Utilise Mistral si tu as du texte à formatter rapidement !
+
+---
+
+### ❓ QUESTIONS FRÉQUENTES
+
+**Q: C'est compliqué GitHub ?**  
+**R:** Non ! Juste "Add file" → "Upload" → "Commit". Tu vas comprendre naturellement.
+
+**Q: Je dois avoir un compte avant la séance ?**  
+**R:** Idéal, mais pas obligatoire. Tu peux le créer après aussi.
+
+**Q: Comment je sais si mon fichier est au bon format ?**  
+**R:** Une fois uploadé, GitHub te montre le rendu. Si c'est lisible = c'est bon !
+
+**Q: Vous allez corriger sur GitHub aussi ?**  
+**R:** Oui ! L'enseignant laissera des commentaires directement sur ton fichier.
 
 ---
 
@@ -338,6 +459,9 @@ Etape 5 : Prioriser les actions
 
 ✅ Comprendre le lien entre code et sécurité
    (tu feras de la cybersécurité en tant que dev)
+
+✅ Utiliser GitHub comme un pro
+   (créer dépôt, uploader, recevoir feedback)
 ```
 
 ---
@@ -405,45 +529,6 @@ Pendant cette séance, tu travailles sur :
 
 ---
 
-## 📚 RESSOURCES
-
-### Pendant la séance
-- 📄 02_SI_FICTIF_DEVSECURE.md → La vraie app à analyser
-- 📋 03_GRILLE_IDENTIFICATION.md → Le format
-- 📝 04_TEMPLATE_CARTOGRAPHIE.md → Ton template
-
-### Pour apprendre plus
-- 📖 08_SUPPORT_DE_COURS.md → Tous les concepts
-- 🎬 YouTube "Log4Shell vulnerability" (~5 min)
-- 🌐 https://owasp.org/www-project-top-ten/
-
-### Après la séance
-- ✅ 07_CORRIGE_COMPLET.md → La solution (enseignant la partagera)
-
----
-
-## ❓ FAQ
-
-### Q: Je dois apprendre GitHub ?
-**R:** Non, c'est très simple. Juste "Add file" → "Commit". Tu vas apprendre naturellement.
-
-### Q: C'est difficile de trouver 12 vulnérabilités ?
-**R:** Non ! Quand tu regardes le code, tu les vois. Le template aide.
-
-### Q: Je dois écrire du code ?
-**R:** Non, juste analyser et documenter.
-
-### Q: Qu'est-ce qu'on fait si on ne trouve pas tout ?
-**R:** Normal ! L'enseignant va révéler les cachées à la fin. C'est pédagogique.
-
-### Q: Comment je sais si mon scoring est bon ?
-**R:** Demande à ton binôme. Si vous êtes d'accord, c'est bon !
-
-### Q: C'est évalué ?
-**R:** Oui, mais sympa ! C'est surtout sur l'effort et la logique.
-
----
-
 ## ✅ CHECKLIST FINAL (À cocher au fur et à mesure)
 
 ### Phase 1 : Comprendre
@@ -463,11 +548,13 @@ Pendant cette séance, tu travailles sur :
 - [ ] J'ai scoré (V × I)
 - [ ] J'ai proposé des solutions
 
-### Phase 4 : Soumettre
-- [ ] J'ai créé un fichier sur GitHub
-- [ ] Il est dans submissions/
-- [ ] Le nom est `Binome_01_Noms.md`
-- [ ] Il est au format Markdown lisible
+### Phase 4 : Remise GitHub
+- [ ] J'ai complété le Livrable 0 (concepts)
+- [ ] J'ai lu le Guide GitHub
+- [ ] J'ai créé un compte GitHub
+- [ ] J'ai créé un dépôt
+- [ ] J'ai uploadé ma cartographie
+- [ ] J'ai envoyé l'URL à l'enseignant
 
 ### Résultat
 - [ ] Fichier bien formé
@@ -486,6 +573,7 @@ Félicitations ! Tu viens de :
 - ✅ Justifier la sécurité avec des chiffres
 - ✅ Soumettre sur GitHub (vrai outil pro)
 - ✅ Construire un portfolio
+- ✅ Maîtriser les concepts de GitHub
 
 **Continue comme ça. La sécurité, c'est l'avenir.** 🚀
 
@@ -495,4 +583,8 @@ Félicitations ! Tu viens de :
 
 CC-BY-NC-SA — Libre pour usage pédagogique
 
+---
 
+**Créé le** : Janvier 2025  
+**Intégration GitHub** : 2 guides étudiants + 1 livrable de vérification  
+**BTS SIO — Bloc 3 — Compétence C1**
