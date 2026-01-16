@@ -491,14 +491,8 @@ Félicitations ! Tu viens de :
 
 ---
 
-## 📞 Questions ?
-
-Demande à ton enseignant ou à ton binôme. C'est un travail d'équipe !
-
----
-
 ## 📜 Licence
 
 CC-BY-NC-SA — Libre pour usage pédagogique
 
-*Séance 1/4 — Cybersécurité et Résilience — SLAM*
+
