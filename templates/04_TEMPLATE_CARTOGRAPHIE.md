@@ -269,4 +269,4 @@
 
 ---
 
-*Document étudiant SLAM — Version standard — Séance 1 — BTS SIO Bloc 3*
+
