@@ -1,4 +1,4 @@
-# 🔐 Cybersécurité — Parcours étudiant 
+# 🔐 Support en Cybersécurité — Parcours étudiant 
 ## Cartographier les vulnérabilités d'une application
 
 ![Version](https://img.shields.io/badge/version-1.0-blue)
