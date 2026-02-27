@@ -24,7 +24,8 @@ Ce mémento te sert de **fiche de révision rapide** pendant les activités.
 - **Correctif (patch)** : mise à jour qui corrige une faille
 - **Faille “zero-day”** : vulnérabilité connue des attaquants avant le correctif
 - **MFA** : vérification en plusieurs facteurs (mot de passe + code/appareil)
-- **SPOF (Single Point of Failure)** : élément unique dont la panne peut bloquer tout le service
+- **SPOF (Single Point of Failure / point de défaillance unique)** : composant critique sans redondance ; s’il tombe (serveur, DB, lien réseau, API tierce), tout ou partie du service devient indisponible
+- **Éviter un SPOF** : prévoir redondance, bascule automatique (failover), supervision et tests de reprise
 - **Principe du moindre privilège** : donner seulement les droits strictement nécessaires
 
 ---
