@@ -22,7 +22,7 @@ Ton rendu est **valide** si tout est vrai :
 - [ ] Le dépôt est en **Public**
 - [ ] Le fichier principal est en `.md`
 - [ ] Les images s’affichent correctement (`images/nom_image.png`)
-- [ ] Le fichier contient : binôme, vulnérabilités, OWASP, score risque, recommandations
+- [ ] Le fichier contient : étudiant, vulnérabilités, OWASP, score risque, recommandations
 - [ ] Le lien envoyé fonctionne
 
 ---
@@ -32,9 +32,8 @@ Ton rendu est **valide** si tout est vrai :
 ```markdown
 # Cartographie des risques — DevSecure
 
-## Binôme
-- Étudiant 1 : [Nom]
-- Étudiant 2 : [Nom]
+## Étudiant
+- Nom : [Nom Prénom]
 
 ## Vulnérabilités
 | Vulnérabilité | Composant | OWASP | V | I | Risque |

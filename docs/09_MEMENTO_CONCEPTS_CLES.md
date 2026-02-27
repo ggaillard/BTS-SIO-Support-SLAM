@@ -25,6 +25,9 @@ Ce mémento te sert de **fiche de révision rapide** pendant les activités.
 - **Faille “zero-day”** : vulnérabilité connue des attaquants avant le correctif
 - **MFA** : vérification en plusieurs facteurs (mot de passe + code/appareil)
 - **SPOF (Single Point of Failure / point de défaillance unique)** : composant critique sans redondance ; s’il tombe (serveur, DB, lien réseau, API tierce), tout ou partie du service devient indisponible
+- **RTO (Recovery Time Objective)** : durée maximale acceptable d’interruption d’un service après incident
+- **RPO (Recovery Point Objective)** : quantité maximale de données que l’on accepte de perdre (exprimée en temps)
+- **Résilience** : capacité d’un système à absorber une panne/attaque, continuer en mode dégradé puis revenir à un fonctionnement normal
 - **Éviter un SPOF** : prévoir redondance, bascule automatique (failover), supervision et tests de reprise
 - **Principe du moindre privilège** : donner seulement les droits strictement nécessaires
 
